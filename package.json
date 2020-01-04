@@ -1,0 +1,14 @@
+{
+  "name": "algocda",
+  "version": "1.0.0",
+  "scripts": {
+    "test": "babel-node spec/run.js"
+  },
+  "author": "Nicolas LE CHENIC",
+  "devDependencies": {
+    "@babel/core": "^7.6.0",
+    "@babel/node": "^7.6.3",
+    "@babel/preset-env": "^7.6.0",
+    "jasmine": "^3.5.0"
+  }
+}
