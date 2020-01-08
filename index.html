@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>La bonne sou-soupe !</title>
+  <link href="assets/bootstrap.min.css" rel="stylesheet" />
+  <link href="assets/style.css" rel="stylesheet" />
+</head>
+<body>
+  <div class="card">
+    <p class="h6 font-weight-bold text-center">La bonne sou-soupe</p>
+    <div class="instructions">
+        <p class="text-secondary">Votre mission si toutefois vous l'acceptez, est de donner votre avis sur cette soupe</p>
+        <br />
+        <p class="text-secondary">Si je sélectionne uniquement des aliments salés et comestibles</p>
+        <p class="text-secondary">Afficher : "Hum la bonne sou-soupe salée !"</p>
+        <p class="text-secondary">Si je sélectionne uniquement des aliments sucrés et comestibles</p>
+        <p class="text-secondary">Afficher : "Hum la bonne sou-soupe sucrée !"</p>
+        <p class="text-secondary">Si je sélectionne des aliments sucrés et salés comestibles</p>
+        <p class="text-secondary">Afficher : "Beurk... c'est pas bon !"</p>
+        <p class="text-secondary">Si je sélectionne un poison</p>
+        <p class="text-secondary">Afficher : "Game over..."</p>
+        <p class="text-secondary">Un autre cas existe, il faudra les traiter !</p>
+    </div>
+
+    <div>
+        <input type="checkbox" id="carrots" name="carrots">
+        <label for="carrots">Carottes</label>
+    </div>
+    <div>
+        <input type="checkbox" id="tomatoes" name="tomatoes">
+        <label for="tomatoes">Tomates</label>
+    </div>
+    <div>
+        <input type="checkbox" id="cyanide" name="cyanide">
+        <label for="cyanide">Cyanure</label>
+    </div>
+    <div>
+        <input type="checkbox" id="potatoes" name="potatoes">
+        <label for="potatoes">Pommes de terre</label>
+    </div>
+    <div>
+        <input type="checkbox" id="black-chocolate" name="black-chocolate">
+        <label for="black-chocolate">Chocolat noir</label>
+    </div>
+    <div>
+        <input type="checkbox" id="vitriol" name="vitriol">
+        <label for="vitriol">Vitriol</label>
+    </div>
+    <div>
+        <input type="checkbox" id="white-chocolate" name="white-chocolate">
+        <label for="white-chocolate">Chocolat blanc</label>
+    </div>
+    <button type="button" class="btn btn-primary" id='submit-btn'>
+        Ma soupe est-elle bonne ?
+    </button>
+  </div>
+
+  <script src="src/theSoup.js"></script>
+</body>
+</html>
